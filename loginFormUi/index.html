@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form ui</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="top">
+          <h1>NMU</h1>
+          <button class="topBtn">
+            Back to Website <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="bottom">
+          <h1>Capturing Moments,<br />Creating Memories</h1>
+          <h1>- - -</h1>
+        </div>
+      </div>
+      <div class="right">
+        <form>
+          <h1>Creating an account</h1>
+          <p class="suggestion">Already have an account? Login</p>
+
+          <div class="inputs">
+            <div class="row">
+              <input type="text" placeholder="first name" />
+              <input type="text" placeholder="Last name" />
+            </div>
+
+            <br />
+
+            <!-- email -->
+
+            <input type="text" placeholder="Email" class="full-width" />
+
+            <br />
+
+            <input
+              type="text"
+              placeholder="Enter tour password"
+              class="full-width"
+            />
+          </div>
+          <br />
+          <input type="checkbox" />
+          <span>I agree to the <a>terms&conditions</a></span>
+          <br />
+          <button class="createAccount">Create account</button>
+          <h6 id="bottom-para">or register with</h6>
+          <div class="signin-btns">
+            <button>Google <i class="fa-brands fa-google"></i></button>
+            <button>Apple <i class="fa-brands fa-apple"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
