@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+button{
+        padding: 7px;
+    font-size: large;
+    background-color: #ffc01f;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+h2{
+    color: white;
+}
+.time{
+    color: white;
+    text-align: center;
+    font-size: 10em;
+    margin-top: 100px;
+}
+.remove-btn{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.colours{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 12px;
+}
+.time-container{
+        display: flex;
+    justify-content: space-around;
+}
+.side-bar {
+  display: none;
+   transition: 0.3s;
+   
+}
+
+.active {
+  display: block;
+}
+.choose-color{
+    background-color: cornflowerblue;
+    padding: 10px 40px;
+}
