@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  
+}
+.container{
+        position: absolute;
+    left: 35%;
+    top: 25%;
+}
+input{
+        padding: 11px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 15px;
+      color: white;
+}
+.add-task{
+        padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+        background-color: orange;
+    color: white;
+}
+.task{
+      display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    background: white;
+    padding: 9px;
+    color: black;
+    border-radius: 20px;
+    width: 506px;
+}
+.task-list{
+        padding: 20px;
+    font-size: 23px;
+    width: 500px;
+    margin: 24px 0;
+    height: auto;
+}
+.task button{
+         padding: 9px 22px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+        border-radius: 8px;
+}
+
+p{
+    background: transparent;
+}
