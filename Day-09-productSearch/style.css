@@ -220,3 +220,20 @@ button:hover {
 .no-products h2 {
   margin-bottom: 10px;
 }
+/* cart */
+
+ul{
+      display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+li{
+      padding: 30px;
+}
+
+ul img {
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+}
