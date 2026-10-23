@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+        text-align: center;
+        border: 1px solid gray;
+    margin: 30px;
+    padding: 30px;
+  
+}
+.container p{
+    color: grey;
+}
+textarea{
+        padding: 31px 90px;
+    border: none;
+    text-align: center;
+        margin: 35px;
+        border: 1px solid grey;
+}
+.outputs{
+        display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.box{
+            height: 106px;
+    width: 129px;
+    border: 1px solid gray;
+    padding: 20px 14px;
+    font-size: 12px;
+    margin: 26px;
+    color: grey;
+}
+.box p{
+    font-size: large;
+}
