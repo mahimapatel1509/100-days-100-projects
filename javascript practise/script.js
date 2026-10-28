@@ -303,8 +303,32 @@ let str = " mahima"
 // checkPalindrome("mom")
 // checkPalindrome("dad")
 
-console.log("hello world".split(" "));
+// console.log("hello world".split(" "));
 
-let string = "i love js"
-let result = string.replace(/\s/g , "")
-console.log(result)
+// let string = "i love js"
+// let result = string.replace(/\s/g , "")
+// console.log(result)
+
+
+// console.log(c);
+// const c = 30;
+
+// const numbers = [12, 45, 7, 89, 23];
+// let largest = numbers[0]
+// for(let i = 0; i <= numbers.length; i++){
+//    console.log(numbers[i])
+//    if(numbers[i] > largest){
+//     largest = numbers[i]
+
+//    }
+//    console.log(largest)
+// }
+
+
+const strs = "hello";
+let freq = {}
+for(let str of strs){
+    freq[str] = (freq[str] || 0) + 1
+   
+}
+ console.log(freq)
